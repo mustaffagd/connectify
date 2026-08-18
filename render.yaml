@@ -39,7 +39,7 @@ services:
           name: connectify-api
           property: url
 
-  - type: pgsql
-    name: connectify-db
+databases:
+  - name: connectify-db
     databaseName: connectify_db
     plan: free
